@@ -27,16 +27,38 @@
 .title1{
 
     text-align: center; 
-    color: rgb(242, 242, 242);
-    text-shadow: 0 0 3px #040404, 0 0 5px #04f334;
+    color: rgb(234, 255, 0);
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
     
 }
+
+@media only screen and (max-width: 380px) {
+   
+    .home{
+
+        max-width: 100%;
+        font-family: fantasy;
+        background-image: url(images/profile/bg3.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 40px;
+        background-attachment: fixed;
+        height: 80vh;
+        padding-top: 200px;
+       
+    }
+
+ 
+   
+  }
+
+
 
 .title2{
 
     text-align: center;
-    color: rgb(7, 7, 7);
-    text-shadow: 0 0 3px #ffffff, 0 0 5px #fae388;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
     
 
 }
