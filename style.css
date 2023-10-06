@@ -1,0 +1,87 @@
+.bg{ 
+    background-color: #3c3b3b;
+    padding: 10px;
+
+}    
+.nav-item:hover{
+    background-color: yellowgreen;
+    border-radius: 5px;
+}
+
+
+.home{
+
+    max-width: 100%;
+    font-family: fantasy;
+    background-image: url(images/profile/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 120px;
+    background-attachment: fixed;
+   
+}
+   
+
+
+
+.title1{
+
+    text-align: center; 
+    color: rgb(242, 242, 242);
+    text-shadow: 0 0 3px #040404, 0 0 5px #04f334;
+    
+}
+
+.title2{
+
+    text-align: center;
+    color: rgb(7, 7, 7);
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #fae388;
+    
+
+}
+
+
+.carousel{
+
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: fit-content;
+   background-position: center;
+   background-size: cover;
+  
+
+   
+}
+.about{
+
+    background-image: url(images/profile/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+    background-attachment: fixed;
+}
+.about1{
+
+    text-align: center;
+    text-shadow: 0 0 3px #070707, 0 0 5px #1ff408;
+    width: 100%;
+    
+}
+
+.split-screen{
+    background-image: url(pic/6.jpg);
+    background-size: cover;
+    width: fit-content;
+    background-attachment: fixed;
+    display: flex;
+    padding: 20px;
+  }
+
+  .sec1 img{
+
+    width: 100% 100%;
+    
+     }
+   
