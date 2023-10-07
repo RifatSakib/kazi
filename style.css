@@ -115,3 +115,28 @@
     
      }
    
+
+     .service{
+        background-image: url(images/profile/bg6.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+     }
+    
+     .col-sm-3,.sericeinner {
+        color: white;
+        padding-left: 20px;
+        padding-right:20px ;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        
+     }
+
+     .col-sm-3{
+        border: 1px solid green;
+       margin: 18px;
+     }
+
+
+
+    
