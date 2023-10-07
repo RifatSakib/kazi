@@ -17,7 +17,6 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 120px;
-    background-attachment: fixed;
    
 }
    
@@ -42,10 +41,9 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
         padding: 40px;
-        background-attachment: fixed;
-        height: 55vh;
-        padding-top: 100px;
-       
+        padding-top: 150px;
+        padding-bottom: 150px;
+    
     }
 
  
@@ -69,7 +67,6 @@
    display: flex;
    justify-content: center;
    width: 100%;
-   height: fit-content;
    background-position: center;
    background-size: cover;
   
