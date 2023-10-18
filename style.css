@@ -1,10 +1,10 @@
 .bg{ 
-    background-color: #3c3b3b;
+    background-color: yellowgreen;
     padding: 10px;
 
 }    
 .nav-item:hover{
-    background-color: yellowgreen;
+    background-color: rgb(0, 0, 0);
     border-radius: 5px;
 }
 
@@ -13,13 +13,30 @@
 
     max-width: 100%;
     font-family: fantasy;
-    background-image: url(images/profile/bg3.jpg);
+    background-image: url(images/kazi\ home2.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 220px;
+    background-attachment: fixed;
+    background-size: cover;
+
    
 }
-   
+   .homebtn{
+
+    width: 150px; 
+    border: 1px solid green; 
+    padding: 10px;
+    background: transparent; 
+    color: white; 
+    border-radius: 5px; 
+    box-shadow: 1px 1px 5px blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+
+   .homebtn:hover{
+    background-color: yellowgreen !important;
+   }
 
 
 
@@ -30,25 +47,6 @@
     text-shadow: 0 0 3px #000000, 0 0 5px #000000;
     
 }
-
-@media only screen and (max-width: 380px) {
-   
-    .home{
-
-        max-width: 100%;
-        font-family: fantasy;
-        background-image: url(images/profile/bg3.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        padding: 40px;
-        padding-top: 150px;
-        padding-bottom: 150px;
-    
-    }
-
- 
-   
-  }
 
 
 
@@ -62,25 +60,9 @@
 }
 
 
-.carousel{
 
-   display: flex;
-   justify-content: center;
-   width: 100%;
-   background-position: center;
-   background-size: cover;
-  
 
-   
-}
-.about{
-
-    background-image: url(images/profile/bg2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding: 20px;
-    background-attachment: fixed;
-}
+/* title name style */
 .about1{
 
     text-align: center;
@@ -89,38 +71,54 @@
     
 }
 
+/* about + Carousel */
 .split-screen{
     background-image: url(pic/6.jpg);
     background-size: cover;
     width: 100%;
     background-attachment: fixed;
     padding: 20px;
-  }
-  
-  @media only screen and (min-width: 675px) {
-    .split-screen{
-        background-image: url(pic/6.jpg);
-        background-size: cover;
-        width: 100%;
-        background-attachment: fixed;
-        padding: 20px;
-        display:flex;
-      }
+
   }
 
+  .carousel{
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 1px 5px red;
+   
+ 
+    
+ }
+ .about{
+ 
+     background-image: url(images/profile/bg2.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     padding: 20px;
+     background-attachment: fixed;
+     margin-top: 2px;
+ }
 
   .sec1 img{
 
     width: 100% 100%;
     
      }
+
    
+     /* service */
 
      .service{
         background-image: url(images/profile/bg6.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-attachment: fixed;
+        margin-top: 2px;
+
      }
     
      .col-sm-3,.serviceinner {
@@ -133,12 +131,112 @@
         
      }
 
-     .col-sm-3{
+     .col-sm-3.service{
         border: 3px solid green;
         margin: 18px;
        
      }
 
+     /* contact */
+
+
+     .contact{
+   
+        background-image: url(images/profile/kazioffice/bg4.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        margin-top: 2px;
+        height: auto;
+        font-family: sans-serif;
+        background-attachment: fixed;
+    
+
+     }
+  
+    
+     .col-sm-4,.contactinner {
+        color: white;
+        padding-left: 30px;
+        padding-right:30px ;
+        border-radius: 10px;
+        height:80vh;
+        padding-top: 10px;
+        
+        
+     }
+  
+
+     .address{
+        margin-left: 35%;
+        margin-right: 35%;
+        color: rgb(255, 255, 255);
+        border-bottom:  2px solid rgb(187, 255, 0);
+        border-radius: 7px;
+     }
+
+footer{
+
+    background-color: yellowgreen;
+    display: flex;
+    height: 35px;
+  
+}
+
+      /* for mobile responsiveness */
+  @media only screen and (min-width: 675px) {
+    .split-screen{
+        background-image: url(pic/6.jpg);
+        background-size: cover;
+        width: 100%;
+        background-attachment: fixed;
+        padding: 20px;
+        display:flex;
+      }
+
+        
+  
+  }
+
+  @media only screen and (max-width: 675px) {
+   
+
+        
+     .col-sm-4,.contactinner {
+        color: white;
+        padding-left: 30px;
+        padding-right:30px ;
+        border-radius: 10px;
+        height:auto !important;
+        padding-top: 10px;
+        
+        
+     }
+  
+  }
+
+
+  
+@media only screen and (max-width: 640px) {
+   
+    .home{
+
+        max-width: 100%;
+        font-family: fantasy;
+        background-image: url(images/profile/bg3.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 30px;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        background-size: cover;
+
+    
+    }
+
+ 
+   
+  }
 
 
     
