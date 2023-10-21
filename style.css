@@ -45,7 +45,7 @@
    .homeinner {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 80px;
-    box-shadow: 5px 5px 20px rgb(255, 0, 0);
+    box-shadow: 5px 5px 20px rgb(34, 255, 0);
     backdrop-filter: blur(5px);
     border-radius: 20px;
  }
@@ -79,6 +79,8 @@
     text-align: center;
     text-shadow: 0 0 3px #070707, 0 0 5px #1ff408;
     width: 100%;
+    padding-top: 50px;
+    font-family: sans-serif;
     
 }
 
@@ -109,7 +111,7 @@
      background-image: url(images/profile/bg2.jpg);
      background-repeat: no-repeat;
      background-size: 100% 100%;
-     padding: 20px;
+     /* padding: 20px; */
      background-attachment: fixed;
      margin-top: 2px;
  }
@@ -170,7 +172,6 @@
         margin-top: 2px;
         height: auto;
         font-family: sans-serif;
-        background-attachment: fixed;
     
 
      }
