@@ -4,7 +4,7 @@
 
 }    
 .nav-item:hover{
-    background-color: rgb(0, 0, 0);
+    background-color: gray;
     border-radius: 5px;
 }
 
@@ -13,12 +13,13 @@
 
     max-width: 100%;
     font-family: fantasy;
-    background-image: url(images/kazi\ home2.jpg);
-    background-repeat: no-repeat;
+    background-image: url(images/home1.jpg),url(images/homepng.png);
+    background-repeat: no-repeat,no-repeat;
     background-size: 100% 100%;
     padding: 220px;
-    background-attachment: fixed;
     background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode:hard-light;
 
    
 }
@@ -38,12 +39,20 @@
     background-color: yellowgreen !important;
    }
 
+   .homeinner {
+    background-color: rgba(0, 0, 0,0.5);
+    padding: 80px;
+    box-shadow: 5px 5px 20px rgb(0, 39, 129);
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+ }
+
 
 
 .title1{
-
+    font-family: cursive;
     text-align: center; 
-    color: rgb(234, 255, 0);
+    color: rgb(171, 255, 2);
     text-shadow: 0 0 3px #000000, 0 0 5px #000000;
     
 }
@@ -56,7 +65,6 @@
     color: rgb(255, 255, 255);
     text-shadow: 0 0 3px #000000, 0 0 5px #000000;
     
-
 }
 
 
@@ -122,7 +130,8 @@
      }
     
      .col-sm-3,.serviceinner {
-        color: white;
+     
+
         padding-left: 20px;
         padding-right:20px ;
         padding-bottom: 20px;
@@ -131,11 +140,19 @@
         
      }
 
-     .col-sm-3.service{
-        border: 3px solid green;
+     .col-sm-3.service1{
+        color: rgba(255, 255, 255);
+        border: 0.1px solid green;
+        box-shadow: 1px 1px 5px blue;
         margin: 18px;
+        backdrop-filter: blur(4px);
+       
        
      }
+
+     
+
+ 
 
      /* contact */
 
@@ -223,16 +240,25 @@ footer{
 
         max-width: 100%;
         font-family: fantasy;
-        background-image: url(images/profile/bg3.jpg);
-        background-repeat: no-repeat;
+        background-image: url(images/home1.jpg),url(images/homepng.png);
+        background-repeat: no-repeat,no-repeat;
         background-size: 100% 100%;
         padding: 30px;
         padding-top: 150px;
         padding-bottom: 150px;
         background-size: cover;
+        background-blend-mode:hard-light;
 
     
     }
+
+    .homeinner {
+        background-color: rgba(0, 0, 0,0.5);
+        padding: 30px;
+        box-shadow: 5px 5px 20px rgb(0, 39, 129);
+        backdrop-filter: blur(3px);
+        border-radius: 20px;
+     }
 
  
    
