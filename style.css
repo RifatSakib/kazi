@@ -197,7 +197,7 @@ footer{
 
     background-color: yellowgreen;
     display: flex;
-    height: 35px;
+    height: auto;
   
 }
 
